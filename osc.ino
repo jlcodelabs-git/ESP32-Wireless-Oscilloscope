@@ -1,5 +1,5 @@
 /*
- * Wireless Dual-Channel Oscilloscope for Seeed XIAO ESP32S3
+ * Wireless Dual-Channel Oscilloscope for  XIAO ESP32-C3 
  * 
  * Features:
  * - Dual analog input channels (GPIO1/A0 and GPIO2/A1)
@@ -17,11 +17,7 @@
  * - Button: BUTTON_PIN to GND (internal pull-up used)
 
 
-
-You actually have the Seeed Studio XIAO ESP32-C3 
-(not the ESP32-S3, which is slightly different).
-
-👉 On the XIAO ESP32-C3, there is no GPIO21 at all. 
+ Seeed Studio XIAO ESP32-C3 
 The usable pins are much fewer. Here’s the correct pinout for analog (ADC) use:
 	•	ADC-capable pins:
 	•	A0 → GPIO2
