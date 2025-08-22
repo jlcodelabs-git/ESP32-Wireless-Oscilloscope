@@ -59,9 +59,9 @@ unsigned long lastDebounceTime = 0;
 const unsigned long debounceDelay = 50; // ms
 
 // WiFi Configuration
-const char* ssid = "Ace";        // Replace with your WiFi network
-//const char* ssid = "KCTS";     // Replace with your WiFi network
-const char* password = "ab123456yz";   // Replace with your WiFi password
+const char* ssid = "Wifi";        // Replace with your WiFi network
+
+const char* password = "password";   // Replace with your WiFi password
 
 // Oscilloscope Configuration
 const int SAMPLE_RATE = 1000;           // Samples per second (adjustable)
