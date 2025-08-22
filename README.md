@@ -122,6 +122,9 @@ All messages are **plain text commands** or **JSON objects**.
 
 ---
 
+## 🚀 Oscilloscope emulator 
+=> : https://osc.jlcodelabs.com/esp32-oscilloscope
+
 ## 📌 Notes
 - This code is tailored for the **Seeed Studio XIAO ESP32-C3** (⚠️ not ESP32-S3).  
 - Only specific pins are ADC-capable (A0–A5).  
